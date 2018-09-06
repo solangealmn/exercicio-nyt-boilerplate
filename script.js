@@ -31,7 +31,7 @@ function exibePosts(){
         <h1>${doc.headline.main}</h1>
         <p>${doc.snippet}</p>
         <p>${doc.web_url}</p>
-        `)}
+        `).join("")}
       </div>`;
 }
   
