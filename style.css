@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.formulario {
+  width: 100vw;
+  background-color: #f4cb42;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-campos {
+  width: 50vw;
+}
+
+.campos-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.campo-busca {
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.btn-busca {
+  height: 30px;
+  width: 50%;
+  color: white;
+  text-transform: uppercase;
+  background-color: red;
+  border: none;
+}
+
+.area-noticia {
+  width: 70vw;
+  margin: auto;
+}
+
+.noticia {
+  background-color: lightgrey;
+  padding: 15px;
+  margin: 15px;
+}

@@ -27,10 +27,12 @@ function carregaPosts(){
 function exibePosts(){
   let exibeBusca = document.getElementById("exibe-busca");
     exibeBusca.innerHTML = 
-      `<div> ${docs.map(doc => `
-        <h1>${doc.headline.main}</h1>
-        <p>${doc.snippet}</p>
-        <p>${doc.web_url}</p>
+      `<div class="area-noticia"> ${docs.map(doc => `
+        <div class="noticia">
+          <h3>${doc.headline.main}</h3>
+          <p>${doc.snippet}</p>
+          <a href="${doc.web_url}">Link para original</a>
+        </div>
         `).join("")}
       </div>`;
 }
