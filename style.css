@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: Verdana, Geneva, sans-serif;
 }
+a{
+  text-decoration: none;
+}
 
 .formulario {
   width: 100vw;
