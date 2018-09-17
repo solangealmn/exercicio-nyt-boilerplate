@@ -1,6 +1,6 @@
 const btnBusca = document.getElementById("btn-busca");
 btnBusca.addEventListener("click", trazBusca);
-let docs = [];
+const docs = [];
 
 function buscaPalavra(){
   return document.getElementById("campo-busca").value;
